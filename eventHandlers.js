@@ -5,6 +5,7 @@ exports.sendEvent = null;
 exports.registerEventHandlers = function (source) {
     source.addEventListener('MyEvent', handleMyEvent);
     // Register more event handlers here
+    
 }
 
 function handleMyEvent(event) {
@@ -20,7 +21,7 @@ function handleMyEvent(event) {
 
     try {        
         // you can add more properties to your data object
-        data.myMessage = "Hello World";
+        data.myMessage = "Hello WorldFabian";
 
         // TODO: do something meaningful with the data
 
